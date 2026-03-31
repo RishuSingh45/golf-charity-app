@@ -68,7 +68,7 @@ SUPABASE_ANON_KEY=your_public_anon_key
 
 ## 🌐 Live Demo
 
-👉 (Add your Vercel link here after deployment)
+👉 https://golf-charity-app-six.vercel.app/
 
 ---
 
