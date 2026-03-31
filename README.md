@@ -1,20 +1,93 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏌️ Golf Charity Subscription Platform
 
-# Run and deploy your AI Studio app
+A full-stack web application where golfers can track their performance, participate in prize draws, and contribute to charities through a subscription-based model.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/c9b32d3f-d5c0-45c2-814c-e1a123c2e598
+## 🚀 Tech Stack
 
-## Run Locally
+**Frontend**
 
-**Prerequisites:**  Node.js
+* React (Vite)
+* TypeScript
+* Tailwind CSS
+* Framer Motion
 
+**Backend & Database**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Supabase (PostgreSQL)
+* Supabase Auth (Authentication)
+* Row Level Security (RLS)
+
+---
+
+## ✨ Features
+
+* 🔐 User Authentication (Signup & Login)
+* 📊 Score Tracking (Stableford format)
+* 🎯 Dashboard with recent scores and stats
+* ❤️ Charity integration (UI implemented)
+* 💳 Subscription module (UI ready)
+* 📱 Fully responsive modern UI
+
+---
+
+## ⚙️ Setup Instructions
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/golf-charity-app.git
+cd golf-charity-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+SUPABASE_URL=your_project_url
+SUPABASE_ANON_KEY=your_public_anon_key
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 (Add your Vercel link here after deployment)
+
+---
+
+## 📌 Notes
+
+* Some features like subscription payments and advanced charity logic are partially implemented.
+* The project focuses on core full-stack architecture, authentication, and data handling.
+
+---
+
+## 👨‍💻 Author
+
+**Rishu Kumar**
+
+---
+
+## 💡 Future Improvements
+
+* Stripe payment integration
+* Full charity selection logic with secure RLS
+* Enhanced analytics dashboard
+* Admin panel for managing draws and users
